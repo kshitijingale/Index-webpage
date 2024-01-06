@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="./output.css" rel="stylesheet" />
+    <title>Review Inbox</title>
+  </head>
+  <body>
+    <div class="max-w-[1440px] mx-auto">
+      <h1
+        class="text-7xl absolute top-10 left-12 opacity-15 tracking-wider -z-10"
+      >
+        Review Inbox
+      </h1>
+      <div class="flex flex-wrap mt-24">
+        <!-- Sidebar -->
+        <div
+          class="w-full md:w-1/4 h-screen bg-transparent px-12 py-4 overflow-auto self-center mt-12"
+        >
+          <ul>
+            <li
+              class="bg-transparent text-black opacity-50 p-2 rounded hover:opacity-100 cursor-pointer"
+            >
+              + &nbsp; New flow
+            </li>
+            <li
+              class="bg-transparent text-[#737373] p-2 rounded-xl cursor-pointer bg-[#DADBDD]"
+            >
+              <span class="font-medium text-black">Coffee?</span> - Marisa Lu
+            </li>
+            <li
+              class="bg-transparent text-[#737373] opacity-50 p-2 rounded hover:text-black cursor-pointer"
+            >
+              <span class="font-medium text-black">Feedback</span> - Lindsey
+              Weiss
+            </li>
+            <li
+              class="bg-transparent text-[#737373] opacity-50 p-2 rounded hover:text-black cursor-pointer"
+            >
+              <span class="font-medium text-black">Post-grad plans</span> -
+              Evelyn Ma
+            </li>
+            <li
+              class="bg-transparent text-[#737373] opacity-50 p-2 rounded hover:text-black cursor-pointer"
+            >
+              <span class="font-medium text-black">Launch plan</span> - Dennis
+              Jin
+            </li>
+          </ul>
+        </div>
+
+        <!-- Email component -->
+        <div class="max-w-md">
+          <div
+            class="bg-[#EFEFEF] flex justify-between items-center rounded-t-lg px-8 py-2"
+          >
+            <div class="flex text-xs">
+              <h3 class="font-bold">Coffee?</h3>
+              <span class="text-[#737373]">- Mail from Malisa Lu</span>
+            </div>
+            <div class="mic-icon">
+              <svg
+                class="h-5 w-5"
+                fill="#737373"
+                height="200px"
+                width="200px"
+                version="1.1"
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 512 512"
+                xmlns:xlink="http://www.w3.org/1999/xlink"
+                enable-background="new 0 0 512 512"
+                stroke="#737373"
+              >
+                <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+                <g
+                  id="SVGRepo_tracerCarrier"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                ></g>
+                <g id="SVGRepo_iconCarrier">
+                  <g>
+                    <g>
+                      <path
+                        d="m439.5,236c0-11.3-9.1-20.4-20.4-20.4s-20.4,9.1-20.4,20.4c0,70-64,126.9-142.7,126.9-78.7,0-142.7-56.9-142.7-126.9 0-11.3-9.1-20.4-20.4-20.4s-20.4,9.1-20.4,20.4c0,86.2 71.5,157.4 163.1,166.7v57.5h-23.6c-11.3,0-20.4,9.1-20.4,20.4 0,11.3 9.1,20.4 20.4,20.4h88c11.3,0 20.4-9.1 20.4-20.4 0-11.3-9.1-20.4-20.4-20.4h-23.6v-57.5c91.6-9.3 163.1-80.5 163.1-166.7z"
+                      ></path>
+                      <path
+                        d="m256,323.5c51,0 92.3-41.3 92.3-92.3v-127.9c0-51-41.3-92.3-92.3-92.3s-92.3,41.3-92.3,92.3v127.9c0,51 41.3,92.3 92.3,92.3zm-52.3-220.2c0-28.8 23.5-52.3 52.3-52.3s52.3,23.5 52.3,52.3v127.9c0,28.8-23.5,52.3-52.3,52.3s-52.3-23.5-52.3-52.3v-127.9z"
+                      ></path>
+                    </g>
+                  </g>
+                </g>
+              </svg>
+            </div>
+          </div>
+          <div class="bg-white shadow-lg rounded-b-lg overflow-hidden">
+            <div class="px-8 py-4">
+              <div class="flex justify-between items-center mb-3">
+                <h1 class="text-lg text-gray-900">Marisa Lu</h1>
+                <span class="text-xs text-[#737373]">Just Now</span>
+              </div>
+              <h2 class="font-bold text-2xl mb-2 text-gray-800">Coffee?</h2>
+              <p class="text-gray-700">Hey Jason,</p>
+              <p class="text-gray-700">
+                Was wondering if you'd be interested in meeting my team at Philz
+                Coffee at 11 AM today. No pressure if you can't make it,
+                although I think you guys would really get along!
+              </p>
+              <p class="text-gray-700">Marisa</p>
+            </div>
+            <div class="px-8 pt-4 pb-2">
+              <hr class="mb-3" />
+              <button
+                class="bg-[#EFEFEF] cursor-pointer text-[#737373] font-bold py-3 px-5 text-xs rounded-xl focus:outline-none focus:shadow-outline"
+                type="button"
+              >
+                Reply
+              </button>
+              <button
+                class="bg-[#EFEFEF] cursor-pointer text-[#737373] font-bold py-3 px-5 text-xs rounded-xl focus:outline-none focus:shadow-outline ml-2"
+                type="button"
+              >
+                Forward
+              </button>
+              <button
+                class="bg-[#EFEFEF] cursor-pointer text-[#737373] font-bold py-3 px-5 text-xs rounded-xl focus:outline-none focus:shadow-outline ml-2"
+                type="button"
+              >
+                Delete
+              </button>
+            </div>
+            <div class="py-4 px-8">
+              <span class="text-xs text-[#737373] cursor-pointer"
+                >𒒬 More actions</span
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
